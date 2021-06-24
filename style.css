@@ -131,8 +131,8 @@ table {
   height: 100px;
   background: transparent url("./image/player.png") center / cover no-repeat;
   position: absolute;
-  left: 125px;
-  bottom: 10px;
+  /* left: 125px; */
+  /* bottom: 10px; */
 }
 .gameArea {
   width: 300px;
@@ -148,4 +148,33 @@ table {
   height: 50px;
   background: #fff;
   left: 145px;
+}
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 200;
+  color: #fff;
+  font-size: 1.5rem;
+  background: #000;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.score {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 200;
+  color: skyblue;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  background: #000;
 }
